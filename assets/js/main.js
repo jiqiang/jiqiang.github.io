@@ -1,12 +1,12 @@
 
-var javascript = new Chart(document.getElementById("javascript").getContext("2d"))
+var angularjs1 = new Chart(document.getElementById("angularjs1").getContext("2d"))
   .Doughnut([
     {
-      value: 70,
+      value: 90,
       color:"#1abc9c"
     },
     {
-      value : 30,
+      value : 10,
       color : "#ecf0f1"
     }
   ]);
