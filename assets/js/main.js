@@ -11,7 +11,19 @@ var angularjs1 = new Chart(document.getElementById("angularjs1").getContext("2d"
     }
   ]);
 
-var bootstrap = new Chart(document.getElementById("bootstrap").getContext("2d"))
+var angular2 = new Chart(document.getElementById("angular2").getContext("2d"))
+  .Doughnut([
+    {
+      value: 70,
+      color:"#1abc9c"
+    },
+    {
+      value : 30,
+      color : "#ecf0f1"
+    }
+  ]);
+
+var jq = new Chart(document.getElementById("jquery").getContext("2d"))
   .Doughnut([
     {
       value: 90,
@@ -19,18 +31,6 @@ var bootstrap = new Chart(document.getElementById("bootstrap").getContext("2d"))
     },
     {
       value : 10,
-      color : "#ecf0f1"
-    }
-  ]);
-
-var wordpress = new Chart(document.getElementById("wordpress").getContext("2d"))
-  .Doughnut([
-    {
-      value: 65,
-      color:"#1abc9c"
-    },
-    {
-      value : 35,
       color : "#ecf0f1"
     }
   ]);
@@ -47,7 +47,19 @@ var htmlcss = new Chart(document.getElementById("html").getContext("2d"))
     }
   ]);
 
-var photoshop = new Chart(document.getElementById("photoshop").getContext("2d"))
+var php = new Chart(document.getElementById("php").getContext("2d"))
+  .Doughnut([
+    {
+      value: 90,
+      color:"#1abc9c"
+    },
+    {
+      value : 10,
+      color : "#ecf0f1"
+    }
+  ]);
+
+var python = new Chart(document.getElementById("python").getContext("2d"))
   .Doughnut([
     {
       value: 70,
@@ -55,18 +67,6 @@ var photoshop = new Chart(document.getElementById("photoshop").getContext("2d"))
     },
     {
       value : 30,
-      color : "#ecf0f1"
-    }
-  ]);
-
-var illustrator = new Chart(document.getElementById("illustrator").getContext("2d"))
-  .Doughnut([
-    {
-      value: 50,
-      color:"#1abc9c"
-    },
-    {
-      value : 50,
       color : "#ecf0f1"
     }
   ]);
